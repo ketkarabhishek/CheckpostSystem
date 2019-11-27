@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909632231866",
+    "firebase_url": "https://checkpost-affe0.firebaseio.com",
+    "project_id": "checkpost-affe0",
+    "storage_bucket": "checkpost-affe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909632231866:android:ddb81b8417bd0dca",
+        "android_client_info": {
+          "package_name": "com.a7.checkpostsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909632231866-5r86o0pjt92ft8bi59abqh00jchbc0kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a7.checkpostsystem",
+            "certificate_hash": "64c737f5142ca4ae77cf8a7582b14eb6ee6d5457"
+          }
+        },
+        {
+          "client_id": "909632231866-39259dmnd07olgqmplek32kk7rg311mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBdy9K6chrYe6nEVJIcCA4IqeetNCNzJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909632231866-39259dmnd07olgqmplek32kk7rg311mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

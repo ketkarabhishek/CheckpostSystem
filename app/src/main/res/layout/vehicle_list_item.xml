@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/vehicle_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Benz"
+            android:textSize="20sp"
+            android:textColor="@color/primaryText"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:id="@+id/regno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="AP34PT4523"
+            android:textSize="16sp"
+            android:textColor="@color/secondaryText"
+
+
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

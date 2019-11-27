@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type / State"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Type 1"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/permit_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="asdfaedgsdvaeg"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pending"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Applied"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/apply_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11/02/19"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valid Till"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/validity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11/02/2020"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Registration No."
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/regNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11/02/2020"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner Name"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11/02/2020"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Model"
+                android:textColor="@color/secondaryText"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11/02/2020"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
